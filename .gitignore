@@ -4,3 +4,12 @@ __pycache__/
 .env
 .env.*
 !.env.example
+node_modules/
+dist/
+*.tsbuildinfo
+*.db
+.pytest_cache/
+test-results/
+playwright-report/
+frontend/audit.json
+vendor/spec-index.json

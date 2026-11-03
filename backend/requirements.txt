@@ -1,2 +1,10 @@
 fastapi
 uvicorn[standard]
+sqlalchemy>=2.0,<3
+psycopg[binary]>=3.2,<4
+alembic>=1.14,<2
+openai>=2,<3
+pydantic-settings>=2,<3
+jsonschema>=4.23,<5
+httpx>=0.28,<1
+pytest>=8,<10
